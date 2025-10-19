@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kindred Connections | Services</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Nunito+Sans:opsz,wght@6..12,300;6..12,400&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Nunito Sans', sans-serif; background-color: #f8f9fa; }
+        h1, h2, h3 { font-family: 'Lora', serif; }
+        .navbar-brand { font-family: 'Lora', serif; font-size: 1.75rem; color: #005656 !important; }
+        .nav-link { color: #5a7a7a; }
+        .nav-link.active { color: #005656 !important; font-weight: bold; }
+        .content-section { background-color: #ffffff; padding: 3rem 2rem; border-radius: 8px; box-shadow: 0 4px 8px rgba(0,0,0,0.05); margin-top: 2rem; }
+        .content-img { width: 100%; height: 100%; object-fit: cover; border-radius: 8px; }
+        footer { background-color: #343a40; color: #f8f9fa; padding: 2rem 0; text-align: center; margin-top: 4rem; }
+        .themed-header {
+            height: 350px;
+            background-image: url("useful-info.jpg");
+            background-size: cover;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6);
+            text-align: center;
+        }
+        
+        .themed-header h1 {
+            font-size: 3.5rem;
+            font-weight: bold;
+        }
+
+        .service-card {
+            background-color: #ffffff;
+            border: 1px solid #e0e0e0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+        }
+    </style>
+</head>
+<body>
+    <header class="bg-white shadow-sm">
+        <nav class="navbar navbar-expand-lg container">
+            <a class="navbar-brand" href="index.html">Kindred Connections</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="services.html">Services</a></li>
+                    <li class="nav-item"><a class="nav-link" href="online.html">Online Counseling</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="useful-info.html">Useful Info</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <span class="themed-header">
+        <div class="container">
+            <h1>Kindred Connections</h1>
+            <p class="lead">Building Stronger Bonds, Together.</p>
+        </div>
+    </span>
+
+    <main class="container my-5">
+        <div class="content-section">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <img src="info.jpg" alt="A supportive therapy session in progress" class="content-img">
+                </div>
+                <div class="col-md-8">
+                    <div class="row">
+                    <div class="col-md-6">
+                        <div class="service-card">
+                            <h5>What to Expect During the First Therapy Session?</h5>                                              
+                                <ul>
+                                    <li>Discuss what brings you to therapy, your background, your mental health history, and your goals</li>
+                                    <li>Understand important logistics like confidentiality, the clinic's policies, and payment or insurance information.</li>
+                                    <li>Be prepared to ask questions, share your thoughts and experiences openly, and engage in the therapeutic process.</li>
+                                </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-card">
+                            <h5>How to Prepare for Your Appointment</h5>
+                            <ul>
+                                <li>Write notes to jot down key points you want to discuss, including thoughts, emotions, or specific events hard to forget.</li>
+                                <li>Manage expectations to acknowledge that the first session is mainly for information gathering and building rapport. It can take a few sessions to develop a comprehensive treatment plan.</li>
+                                <li>Review confidentiality including the few legal exceptions where the therapists may be required to break it (e.g., if you pose a threat to yourself or others).</li>
+                                <li>Be honest to ensure effective therapy; it's in your best interest to be as open and honest as possible with your clinician.</li>
+                            </ul>
+                        </div>
+                    </div>
+                     <div class="col-md-6">
+                        <div class="service-card">
+                            <h5>Confidentiality</h5>
+                            <p>Everything you share in therapy is strictly confidential, protected by law and our professional code of ethics. Your privacy is paramount. Please do not hesitate to ask any questions about confidentiality.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="service-card">
+                            <h5>Fees & Insurance</h5>
+                            <p>Our standard session fee is $150. We are an out-of-network provider for most PPO insurance plans and can provide you with a superbill to submit for reimbursement. Please check with your insurance provider about your out-of-network mental health benefits.</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Kindred Connections Psychotherapy Clinic. All Rights Reserved.<br>123 Therapy Lane, Brookfield, WI</p>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
